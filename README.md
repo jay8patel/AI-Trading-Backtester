@@ -29,7 +29,7 @@ Unlike retail backtesters that simplify execution, JACKBULL mimics a real exchan
 
 The codebase adheres to SOLID principles with a modular design pattern:
 
-```text
+
 src/
 ├── strategy_base.py      # Abstract Event Engine & Cash Management
 ├── market_downloader.py  # Yahoo Finance API Connector / Data Sanitization

@@ -25,36 +25,43 @@ Unlike retail backtesters that simplify execution, JACKBULL mimics a real exchan
 *   **Heikin-Ashi Smoothing Layer:** (Optional) Internal pre-processing to denoise HFT tick data before logic application.
 *   **Risk Engine:** Embedded Drawdown limits and volatility-adjusted exit triggers.
 
+## 📦 Installation & Usage
+
+**Prerequisites:** Python 3.8+, Pip.
+
+Follow these steps to install the dependencies, launch the engine, and start a trading session immediately.
+
+1.  **Clone and Install:**
+    ```bash
+    git clone https://github.com/jay8patel/AI-Trading-Backtester.git
+    cd jackbull-autotrader
+    pip install -r requirements.txt
+    ```
+
+2.  **Run the Engine:**
+    ```bash
+    python main.py
+    ```
+
+3.  **Operation:**
+    Once the CLI initializes, you will see the prompt below. Enter any ticker symbol to auto-ingest OHLCV data and generate the Equity Curve.
+    ```text
+    [JACKBULL] System Ready.
+    > Enter Asset Symbol (e.g., BTC-USD, NVDA):
+    ```
+
 ## 🛠️ Architecture
 
 The codebase adheres to SOLID principles with a modular design pattern:
 
-
-src/
-├── strategy_base.py      # Abstract Event Engine & Cash Management
-├── market_downloader.py  # Yahoo Finance API Connector / Data Sanitization
-└── strategies.py         # Proprietary JACKBULL Logic Kernel (Obfuscated)
-
-## 📦 Installation & Setup
-*   **Prerequisites**
-Python 3.8+
-Pip environment
-*   **Deployment**
-Clone the Repository (Authorized Users Only):
-code
-Bash
-git clone https://github.com/jay8patel/AI-Trading-Backtester.git
-cd jackbull-autotrader
-Initialize Environment:
-code
-Bash
-pip install -r requirements.txt
-Execute Interactive Shell:
-code
-Bash
-python main.py
-##  📊 Usage Guide
-Upon execution, the CLI (Command Line Interface) will initialize.
-[JACKBULL] System Ready.
-Enter Asset Symbol (e.g., BTC-USD, NVDA):
-The system will auto-ingest Hourly (1H) or Daily (1D) OHLCV data, run the JackbullStrategy, and output a matplotlib Equity Curve visualized against the asset price performance.
+```text
+jackbull-autotrader/
+│
+├── src/
+│   ├── strategy_base.py      # Abstract Event Engine & Cash Management
+│   ├── market_downloader.py  # Yahoo Finance API Connector / Data Sanitization
+│   └── strategies.py         # Proprietary JACKBULL Logic Kernel (Obfuscated)
+│
+├── main.py                   # CLI Entry Point
+├── requirements.txt          # Dependency List
+└── README.md                 # Documentation

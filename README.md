@@ -43,7 +43,7 @@ Pip environment
 Clone the Repository (Authorized Users Only):
 code
 Bash
-git clone https://github.com/YourUsername/AI Trading Backtester.git
+git clone https://github.com/jay8patel/AI-Trading-Backtester.git
 cd jackbull-autotrader
 Initialize Environment:
 code

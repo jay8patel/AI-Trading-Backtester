@@ -11,13 +11,13 @@
 
 ## 🚀 Overview
 
-**JACKBULL** is a high-performance quantitative trading engine designed to identify Alpha in volatile asset classes. Built on a vectorized Python kernel, it simulates institutional order flow with precision—accounting for transaction friction, slippage, and dynamic position management.
+**AI JACKBULL Strategies** is a high-performance quantitative trading engine designed to identify Alpha in volatile asset classes. Built on a vectorized Python kernel, it simulates institutional order flow with precision—accounting for transaction friction, slippage, and dynamic position management.
 
-The core logic utilizes the proprietary **Jackbull Momentum Protocol**, a volatility-adaptive algorithm designed to capture "Fat Tail" distribution events (outlier trends) in Crypto, Forex, and Large-Cap Equities, while mathematically filtering out mean-reverting noise.
+The core logic utilizes the proprietary **My Jackbull Momentum Protocol**, a volatility-adaptive algorithm designed to capture "Fat Tail" distribution events (outlier trends) in Crypto, Forex, and Large-Cap Equities, while mathematically filtering out mean-reverting noise.
 
 ## ⚡ Technical Capabilities
 
-Unlike retail backtesters that simplify execution, JACKBULL mimics a real exchange environment:
+Unlike retail backtesters that simplify execution, My AI-Trading-Backtester mimics a real exchange environment:
 
 *   **Vectorized Signal Processing:** Exploits `numpy` and `pandas` specifically for nanosecond-latency data handling across large datasets (50,000+ data points).
 *   **Friction Modeling:** Logic engine calculates PnL *net of fees* (default 10bps), ensuring realistic Expectancy (E) values.
@@ -27,14 +27,14 @@ Unlike retail backtesters that simplify execution, JACKBULL mimics a real exchan
 
 ## 📦 Installation & Usage
 
-**Prerequisites:** Python 3.8+, Pip.
+**Prerequisites:** Python 3.0+, Pip.
 
 Follow these steps to install the dependencies, launch the engine, and start a trading session immediately.
 
 1.  **Clone and Install:**
     ```bash
     git clone https://github.com/jay8patel/AI-Trading-Backtester.git
-    cd jackbull-autotrader
+    cd AI-Trading-Backtester
     pip install -r requirements.txt
     ```
 
@@ -46,7 +46,7 @@ Follow these steps to install the dependencies, launch the engine, and start a t
 3.  **Operation:**
     Once the CLI initializes, you will see the prompt below. Enter any ticker symbol to auto-ingest OHLCV data and generate the Equity Curve.
     ```text
-    [JACKBULL] System Ready.
+    [Trading] System Ready.
     > Enter Asset Symbol (e.g., BTC-USD, NVDA):
     ```
 
@@ -60,7 +60,7 @@ AI-Trading-Backtester/
 ├── src/
 │   ├── strategy_base.py      # Abstract Event Engine & Cash Management
 │   ├── market_downloader.py  # Yahoo Finance API Connector / Data Sanitization
-│   └── strategies.py         # Proprietary JACKBULL Logic Kernel (Obfuscated)
+│   └── strategies.py         # Proprietary Trading Logic Kernel (Obfuscated)
 │
 ├── main.py                   # CLI Entry Point
 ├── requirements.txt          # Dependency List

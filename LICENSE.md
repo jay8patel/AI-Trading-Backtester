@@ -1,10 +1,5 @@
----
 
-### 2. The File: `LICENSE`
 
-Create a file named `LICENSE` (no extension) and paste this text. This is a robust legal template protecting your code while allowing user usage *under your strict rules*.
-
-```text
 PROPRIETARY SOFTWARE LICENSE AGREEMENT
 
 Copyright (c) 2024-2025 [Your Name / Jackbull Auto Trader]

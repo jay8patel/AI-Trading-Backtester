@@ -1,0 +1,40 @@
+---
+
+### 2. The File: `LICENSE`
+
+Create a file named `LICENSE` (no extension) and paste this text. This is a robust legal template protecting your code while allowing user usage *under your strict rules*.
+
+```text
+PROPRIETARY SOFTWARE LICENSE AGREEMENT
+
+Copyright (c) 2024-2025 [Your Name / Jackbull Auto Trader]
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. DEFINITIONS
+   "Software" refers to the code, scripts, logic, and documentation files associated with the "JACKBULL Auto Trader" project.
+   "Author" refers to the original creator of this work.
+
+2. LICENSE GRANT (RESTRICTED)
+   Permission is hereby granted, free of charge, to any person obtaining a copy of this Software for PERSONAL, EDUCATIONAL, and ANALYTICAL use only, subject to the following strict conditions:
+
+3. RESTRICTIONS ON REDISTRIBUTION
+   You may NOT upload, mirror, host, or distribute this Software on any public platform (GitHub, GitLab, Docker Hub, etc.), website, or server without the express prior WRITTEN permission of the Author.
+   
+   If permission is granted, you must prominently credit the Author in every file and in the repository description.
+
+4. RESTRICTIONS ON MODIFICATION
+   You may NOT modify, fork, or create derivative works of this Software for the purpose of redistribution or commercial gain without the express prior WRITTEN permission of the Author. Any authorized modifications must explicitly state that changes were made and clearly attribute the original source.
+
+5. COMMERCIAL USE PROHIBITED
+   This Software is for educational analysis only. Using this software to manage third-party capital, run a paid signal service, or bundling it into a commercial product is STRICTLY PROHIBITED without a commercial license agreement from the Author.
+
+6. LEGAL ENFORCEMENT
+   The Author reserves the right to take legal action against individuals, entities, or organizations found to be in violation of this License. This includes, but is not limited to, DMCA takedown requests and seeking damages for intellectual property infringement.
+
+7. DISCLAIMER OF WARRANTY (NO LIABILITY)
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+
+   IN NO EVENT SHALL THE AUTHORS, COPYRIGHT HOLDERS, OR THE ASSOCIATED PLATFORM BE LIABLE FOR ANY CLAIM, DAMAGES (INCLUDING FINANCIAL LOSSES, TRADING LOSSES, OR DATA LOSS), OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+   THIS IS AN EDUCATIONAL TOOL. PAST PERFORMANCE DOES NOT GUARANTEE FUTURE RESULTS. YOU USE THIS SOFTWARE ENTIRELY AT YOUR OWN RISK.

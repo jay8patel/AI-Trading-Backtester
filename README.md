@@ -1,4 +1,4 @@
-# JACKBULL Auto Trader
+# AI-Trading-Backtester
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]()
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)]()
@@ -55,7 +55,7 @@ Follow these steps to install the dependencies, launch the engine, and start a t
 The codebase adheres to SOLID principles with a modular design pattern:
 
 ```text
-jackbull-autotrader/
+AI-Trading-Backtester/
 │
 ├── src/
 │   ├── strategy_base.py      # Abstract Event Engine & Cash Management
